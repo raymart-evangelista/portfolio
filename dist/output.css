@@ -563,6 +563,22 @@ video {
   bottom: 0px;
 }
 
+.bottom-64 {
+  bottom: 16rem;
+}
+
+.bottom-32 {
+  bottom: 8rem;
+}
+
+.bottom-72 {
+  bottom: 18rem;
+}
+
+.bottom-96 {
+  bottom: 24rem;
+}
+
 .m-5 {
   margin: 1.25rem;
 }
@@ -908,6 +924,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:bottom-0 {
+    bottom: 0px;
+  }
+
   .lg\:m-8 {
     margin: 2rem;
   }
@@ -1111,5 +1131,10 @@ video {
   .\32xl\:mx-96 {
     margin-left: 24rem;
     margin-right: 24rem;
+  }
+
+  .\32xl\:mx-60 {
+    margin-left: 15rem;
+    margin-right: 15rem;
   }
 }
