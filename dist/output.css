@@ -588,6 +588,10 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .flex {
   display: flex;
 }
@@ -856,6 +860,11 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:mx-96 {
+    margin-left: 24rem;
+    margin-right: 24rem;
+  }
+
   .md\:h-auto {
     height: auto;
   }
@@ -872,8 +881,20 @@ video {
     max-width: 36rem;
   }
 
+  .md\:basis-full {
+    flex-basis: 100%;
+  }
+
+  .md\:basis-1\/2 {
+    flex-basis: 50%;
+  }
+
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:flex-wrap {
+    flex-wrap: wrap;
   }
 
   .md\:rounded-none {
@@ -897,6 +918,23 @@ video {
 
   .lg\:m-0 {
     margin: 0px;
+  }
+
+  .lg\:m-32 {
+    margin: 8rem;
+  }
+
+  .lg\:m-64 {
+    margin: 16rem;
+  }
+
+  .lg\:m-96 {
+    margin: 24rem;
+  }
+
+  .lg\:mx-96 {
+    margin-left: 24rem;
+    margin-right: 24rem;
   }
 
   .lg\:block {
@@ -1011,6 +1049,22 @@ video {
     flex-basis: 50%;
   }
 
+  .lg\:basis-1 {
+    flex-basis: 0.25rem;
+  }
+
+  .lg\:basis-1\/2 {
+    flex-basis: 50%;
+  }
+
+  .lg\:basis-2\/3 {
+    flex-basis: 66.666667%;
+  }
+
+  .lg\:basis-1\.5 {
+    flex-basis: 0.375rem;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -1043,5 +1097,19 @@ video {
   .lg\:object-cover {
     -o-object-fit: cover;
        object-fit: cover;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:mx-96 {
+    margin-left: 24rem;
+    margin-right: 24rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:mx-96 {
+    margin-left: 24rem;
+    margin-right: 24rem;
   }
 }
