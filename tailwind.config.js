@@ -5,7 +5,12 @@ module.exports = {
     "./*.{html,js}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        nunito: ['Nunito'],
+        raleway: ['Raleway']
+      }
+    },
   },
   plugins: [],
 }
